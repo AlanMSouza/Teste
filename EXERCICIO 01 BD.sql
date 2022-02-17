@@ -1,6 +1,9 @@
+/* EXERCICIO 1*/
 create database fib2022;
 use fib2022;
 
+
+/* EXERCICIO 2*/
 create table agenda (
 nome		varchar (30) not null,
 idade		int not null,
@@ -16,6 +19,8 @@ insert into agenda values ('Luiza', 18, 1.72, 'Bauru', 'F');
 
 select * from agenda;
 
+
+/* EXERCICIO 3*/
 create table cadastro (
 clienteId	int			 not null	identity,
 email		varchar (30) not null,
@@ -35,6 +40,7 @@ insert into cadastro values ('luiz@gmail.com', '29039482745', 'Luiz', 'luiz123',
 select * from cadastro;
 
 
+/* EXERCICIO 4*/
 create table email (
 emailId		int				not null identity,
 email		varchar	(30)	not null,
@@ -49,3 +55,11 @@ insert into email values ('hugo@gmail.com', 'hugo@123', 'Brasil', '09/09/2001');
 
 select * from email;
 
+
+/* EXERCICIO 5*/
+create table alunos (
+
+
+
+
+)
