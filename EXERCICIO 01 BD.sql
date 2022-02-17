@@ -33,3 +33,5 @@ insert into cadastro values ('elza@gmail.com', '35476849389', 'Elza', 'elza123',
 insert into cadastro values ('luiz@gmail.com', '29039482745', 'Luiz', 'luiz123', '28/09/2003', 'M', '(14)998877324');
 
 select * from cadastro;
+
+
