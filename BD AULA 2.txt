@@ -1,0 +1,137 @@
+BRANCH -  lugar onde fica armazenado um arquivo no git; repositorio
+branch.master
+
+GIT INIT = criar um repositorio; 1x para cada projeto	
+GIT ADD = para adicionar as mudanças
+GIT COMMIT = M "ADD ALGUNS ARQUIVOS"; para dar git commit precisa ter add algo, para atualizar as mudanças
+GIT STATUS = checar o que mudou
+GIT CHECKOUT -B NOME_DO_NOVO_BRANCH = criar um novo branch
+GIT CHECKOUT MASTER = para voltar para o branch master
+GIT REMOTE ADD ORIGIN LINK DO REPOSITORIO DO GITHUB
+
+1. cd Documents/Projeto
+2. git init
+3. git add .
+4. git commit -m "mensagem"
+5. git status 
+
+
+ git checkout nova_funcionalidade 
+ para criar = git checkout -b nome da nova branch
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ git init
+Initialized empty Git repository in C:/Users/a16/Documents/Projeto/AulaJava/.git/
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.TXT
+        Teste.class
+        Teste.ctxt
+        Teste.java
+        package.bluej
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ git .ignore
+git: '.ignore' is not a git command. See 'git --help'.
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ ls
+README.TXT  Teste.class  Teste.ctxt  Teste.java  package.bluej
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ ls
+README.TXT  Teste.class  Teste.ctxt  Teste.java  package.bluej
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ cd gitignore.txt .gitignore
+bash: cd: too many arguments
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ cd gitignore.txt
+bash: cd: gitignore.txt: Not a directory
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ cd gitignore.txt .gitignore
+bash: cd: too many arguments
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ cp gitignore.txt .gitignore
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Teste.class
+        Teste.ctxt
+        Teste.java
+        gitignore.TXT
+        package.bluej
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Teste.class
+        Teste.ctxt
+        Teste.java
+        gitignore.TXT
+        package.bluej
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Teste.class
+        Teste.ctxt
+        Teste.java
+        gitignore.TXT
+        package.bluej
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Teste.class
+        Teste.ctxt
+        Teste.java
+        gitignore.TXT
+        package.bluej
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+a16@DESKTOP-648MNAU MINGW64 ~/Documents/Projeto/AulaJava (master)

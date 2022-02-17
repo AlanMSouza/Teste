@@ -1,0 +1,38 @@
+Banco de Dados : coleções de informações que se relacionam de forma que crie um sentido.
+As empresas pegam todo tipo de informações que podem e fazer um relatório.
+São um conjunto de arquivos relacionados entre si com registros sobre pessoas, lugares, comportamento, ocorrencias, preferencias, etc
+Coleções organizadas de dados que se relacionam de forma a criar algum sentido (informação)
+
+SQL Server/Oracle/MySQL são os bancos de dados mais usados
+
+Dados = registros soltos, aleatorios, que constituem a materia prima da informação, ou seja, informação nao tratada que ainda nao demonstra nenhuma relevancia.
+
+Metadados = sao informações completas sobre alguma coisa. informações estruturadas que descrevem, explicam e localiza.
+
+SQL Server = 
+
+Banco de dados nao pode nome composto, caracteres especiais.
+
+variaveis em banco de dados:
+	-> int = numeros inteiros == exemplo = idade
+	-> decimal = float == exemplo = altura
+	-> varchar = char == exemplo =  nome
+	-> datetime = data e hora == exemplo = data de nascimento
+
+
+*altura == ex = 1.90 = tamanho: 4,2 (1, ponto, 9 e 0, com duas casas decimais = 9 e 0)
+*telefone = varchar pois usa parenteses, traço etc
+
+NOT NULL = informação importante para se saber
+NULL = informação não importante para se saber
+
+COMANDOS
+create dabase = criar um banco de dados
+create table = criar tabela
+
+numericos nao se coloca ''
+primary key = chave primeraria, para nao repetir dados. *PRIMARY KEY NAO PODE SER NULL. 
+quando define uma primary key, o banco sera organizado em ordem alfabetica.
+
+identity = coloca o codigo sozinho, = apenas int
+
