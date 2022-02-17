@@ -58,8 +58,23 @@ select * from email;
 
 /* EXERCICIO 5*/
 create table alunos (
-
-
-
-
+nome			varchar (30)	not null,
+idade			int				not null,
+cidade			varchar (20)	null,
+sexo			varchar (1)		not null,
+rg				varchar (10)	null,
+cpf				varchar (12)	null,
+trabalha		char	(1)		not null,
+areadesejada	varchar	(20)	not null,
+curso			varchar	(30)	not null,
+semestreatual	int				not null,
 )
+
+insert into alunos values ('Alan', 19, 'Lucianopolis', 'M', 572260908, 75436736127, 'S', 'Desenvolvedor', 'Ciencia da Computacao', 3);
+insert into alunos values ('Guilherme', 20, 'Bauru', 'M', 524352908, 45348296817, 'N', 'Analista de QA', 'Ciencia da Computacao', 5);
+insert into alunos values ('Marco', 18, 'Bauru', 'M', 438695746, 24375620598, 'S', 'Analista de Dados', 'Ciencia da Computacao', 2);
+
+select * from alunos;
+
+
+/* EXERCICIO 6*/
