@@ -78,3 +78,17 @@ select * from alunos;
 
 
 /* EXERCICIO 6*/
+create table seis(
+nomepai			varchar (30)	not null,
+nomemae			varchar (30)	not null,
+altura			decimal	(4,2)	null,
+sanguetipo		varchar	(4)		null,
+frutafav		varchar	(20)	null,
+professorfav	varchar	(30)	not null,
+)
+
+insert into seis values ('Simei', 'Arlete', 1.78, 'O+', 'Lichia', 'Marcos');
+insert into seis values ('Joao', 'Maria', 1.90, 'AB+', 'Morango', 'Marcos');
+insert into seis values ('Jose', 'Antonia', 1.70, 'A-', 'Manga', 'Marcos');
+
+select * from seis;
