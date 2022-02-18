@@ -44,5 +44,39 @@ select * from produtos;
 
 
 -- TABELA 03 --
-creat
+create table roupas (
+produto	varchar (6)		not null,
+cor		varchar	(20)	null,
+tamanho varchar	(5)		null,
+preco	decimal	(7,2)	not null,
+primary key (produto)
+);
 
+insert into roupas values ('Camisa', 'Azul', 'GG', 99.99); 
+insert into roupas values ('Calça', 'Preto', 'G', 139.99);
+insert into roupas values ('Saia', 'Vermelho', 'M', 200.00);
+insert into roupas values ('Boné', null, null, 70.00);
+insert into roupas values ('Cinto', 'Preto', 'P', 27.00);
+insert into roupas values ('Batom', 'Vermelho', null, 9.99);
+
+select * from roupas;
+
+
+-- TABELA 04 --
+create table usuario (
+userid	int	not null identity,
+nome	varchar	(30) not null,
+dtnasc	datetime	 null,
+cel		varchar	(16) null,
+cpf		varchar (15) null,
+cep		varchar	(10) null,
+);
+
+insert into usuario values ('José João Ortioga', '20/10/1970', '014 98877-6644', '123345678-90', '17120-000');
+insert into usuario values ('Maria Mariana Santos', null, null, null, '01111-998');
+insert into usuario values ('Antonio Tiburcio Silva', '01/01/2000', '014 3262-8890', '987789789-11', '32998-199');
+insert into usuario values ('Jana Antonia Pereira', '30/10/1999', null, '345678123-90', null);
+insert into usuario values ('Durval da Silva', null, null, null, null);
+insert into usuario values ('Durvalina das Dores', '21/12/2020', null, '081666787-11', '12345-123');
+
+select * from usuario;
